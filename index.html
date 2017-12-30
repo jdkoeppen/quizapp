@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Bob's Burgers Quiz</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Anton|Schoolbell" rel="stylesheet">
+
+</head>
+
+<body role="document">
+	<h1 role="heading" aria-level="1">Much Do You Know About Bob's Burgers?</h1>
+	<header role="banner">
+		<img role="img" class="logo" src="https://i.imgur.com/pz5uBRs.png" alt="How much do you know about Bob's Burgers?">
+	</header>
+
+	<main role="main">
+		<div class="questionBox">
+			<div class="question hidden">
+
+			</div>
+
+			<form role="form">
+				<p>
+					<input role="button" type="button" class="startButton" name="start" value="Click Here to Begin">
+				</p>
+				<p>
+					<input role="button" type="button" class="restartButton hidden" name="start" value="Click Here to Restart">
+				</p>
+			</form>
+
+		</div>
+		<div class="answerBox hidden">
+			<div>
+				<form>
+					<fieldset>
+						<ul role="list" class="answerList">
+						</ul>
+						<div class="score">
+
+						</div>
+						<button type="submit" class="submit" value="Submit">Submit</button>
+
+					</fieldset>
+
+
+				</form>
+			</div>
+		</div>
+	</main>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	    crossorigin="anonymous"></script>
+	<script src="./app.js"></script>
+</body>
+
+</html>
