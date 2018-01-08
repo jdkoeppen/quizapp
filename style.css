@@ -12,6 +12,7 @@
 }
 
 html {
+    background-color: #85cee9;
     background: linear-gradient( #85cee9, #2c9bc0) fixed;
     margin: 0px;
     padding: 0px;
@@ -99,6 +100,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color: #989da3;
     background: radial-gradient(#989da3, #767A7F);
     border: 12px solid black;
     outline: 8px solid #B8524D;
